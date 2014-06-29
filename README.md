@@ -26,6 +26,8 @@ Delete __XcodeHoney.xcplugin__ file.
 
 If you are use Xcode 6 to write Swift code, anywhere in the line, press __⌘ + return__, XcodeHoney will automatically insert a new line without ';'.
 
+!()[001.gif]
+
 ###⌘ + ;
 Anywhere in the line, press __⌘ + ;__, XcodeHoney will automatically move the cursor to the end of the line, insert ';', then start a new line.
 
