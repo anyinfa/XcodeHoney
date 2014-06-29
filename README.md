@@ -26,21 +26,31 @@ Delete __XcodeHoney.xcplugin__ file.
 
 If you are use Xcode 6 to write Swift code, anywhere in the line, press __⌘ + return__, XcodeHoney will automatically insert a new line without ';'.
 
-!()[001.gif]
+![Screenshot](001.gif)
 
 ###⌘ + ;
 Anywhere in the line, press __⌘ + ;__, XcodeHoney will automatically move the cursor to the end of the line, insert ';', then start a new line.
 
 __Note:__ This shortcuts will override Xcode's default behavior __Syntax checking__ of __⌘ + ;__.
 
+![Screenshot](002.gif)
+
 ###⌘ + -
 Add a single-line comments.
+
+![Screenshot](003.gif)
 
 ###⌘ + =
 Add a double-line comments.
 
+![Screenshot](004.gif)
+
 ###⌘ + '
 Anywhere in the line, if no text is selected, XcodeHoney select the current row then double it. If some text is selected, XcodeHoney double it directly.
+
+![Screenshot](005.gif)
+
+![Screenshot](006.gif)
 
 ##Future
 ---
