@@ -1,17 +1,17 @@
 XcodeHoney
 ==========
 
+## Description
+
 Plugin for Xcode to add some useful key bindings. Support Xcode 6 beta.
 
-##Install
----
+## Installation
 
 Clone __XcodeHoney__ from github or download from [HERE](https://github.com/anyinfa/XcodeHoney.git) directly. Open XcodeHoney.xcodeproj and then Build. The installation is now completed. Very simple.
 
 >git clone https://github.com/anyinfa/XcodeHoney.git
 
 ##Uninstall
----
 
 Enter __Plug-ins__ directory
 
@@ -19,8 +19,7 @@ Enter __Plug-ins__ directory
 
 Delete __XcodeHoney.xcplugin__ file.
 
-##How to use
----
+##Usage
 
 ###⌘ + return
 
@@ -53,11 +52,11 @@ Anywhere in the line, if no text is selected, XcodeHoney select the current row 
 ![Screenshot](006.gif)
 
 ##Future
----
+
 I will add a panel for you to custom shortcuts for execute a combination of commands.
 
 ##Contact me
----
+
 If you have any suggestions, please send me an Email. Your suggestions are welcome.
 
 Email: [anyinfa@gmail.com](anyinfa@gmail.com)
