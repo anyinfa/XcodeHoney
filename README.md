@@ -1,6 +1,8 @@
 XcodeHoney
 ==========
 
+####Version 0.1
+
 ## Description
 
 Plugin for Xcode to add some useful key bindings. Support Xcode 6 beta.
@@ -15,7 +17,7 @@ Clone __XcodeHoney__ from github or download from [HERE](https://github.com/anyi
 
 Enter __Plug-ins__ directory
 
->/Users/<YOUR_USER_NAME>/Library/Application Support/Developer/Shared/Xcode/Plug-ins
+>/Users/[YOUR\_USER\_NAME]/Library/Application Support/Developer/Shared/Xcode/Plug-ins
 
 Delete __XcodeHoney.xcplugin__ file.
 
