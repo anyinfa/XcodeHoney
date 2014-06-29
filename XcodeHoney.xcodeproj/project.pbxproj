@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD6469A1195F8D1B00680DB6 /* NBTextViewOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6469A0195F8D1B00680DB6 /* NBTextViewOperation.m */; };
+		FD6469A4195F8F8A00680DB6 /* NSTextView+NBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6469A3195F8F8A00680DB6 /* NSTextView+NBExtension.m */; };
+		FDF7E4BB1946EC2B00775FBF /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF7E4BA1946EC2B00775FBF /* AppKit.framework */; };
+		FDF7E4BD1946EC2B00775FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF7E4BC1946EC2B00775FBF /* Foundation.framework */; };
+		FDF7E4C31946EC2B00775FBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF7E4C11946EC2B00775FBF /* InfoPlist.strings */; };
+		FDF7E4C61946EC2B00775FBF /* XcodeHoney.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF7E4C51946EC2B00775FBF /* XcodeHoney.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD64699F195F8D1B00680DB6 /* NBTextViewOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBTextViewOperation.h; sourceTree = "<group>"; };
+		FD6469A0195F8D1B00680DB6 /* NBTextViewOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBTextViewOperation.m; sourceTree = "<group>"; };
+		FD6469A2195F8F8A00680DB6 /* NSTextView+NBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTextView+NBExtension.h"; sourceTree = "<group>"; };
+		FD6469A3195F8F8A00680DB6 /* NSTextView+NBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTextView+NBExtension.m"; sourceTree = "<group>"; };
+		FD6469A5195F9A9100680DB6 /* NBKeyCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBKeyCode.h; sourceTree = "<group>"; };
+		FDF7E4B71946EC2B00775FBF /* XcodeHoney.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeHoney.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF7E4BA1946EC2B00775FBF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FDF7E4BC1946EC2B00775FBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDF7E4C01946EC2B00775FBF /* XcodeHoney-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XcodeHoney-Info.plist"; sourceTree = "<group>"; };
+		FDF7E4C21946EC2B00775FBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDF7E4C41946EC2B00775FBF /* XcodeHoney.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeHoney.h; sourceTree = "<group>"; };
+		FDF7E4C51946EC2B00775FBF /* XcodeHoney.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeHoney.m; sourceTree = "<group>"; };
+		FDF7E4C71946EC2B00775FBF /* XcodeHoney-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeHoney-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF7E4B41946EC2B00775FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF7E4BB1946EC2B00775FBF /* AppKit.framework in Frameworks */,
+				FDF7E4BD1946EC2B00775FBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF7E4AE1946EC2B00775FBF = {
+			isa = PBXGroup;
+			children = (
+				FDF7E4BE1946EC2B00775FBF /* XcodeHoney */,
+				FDF7E4B91946EC2B00775FBF /* Frameworks */,
+				FDF7E4B81946EC2B00775FBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF7E4B81946EC2B00775FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E4B71946EC2B00775FBF /* XcodeHoney.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF7E4B91946EC2B00775FBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E4BA1946EC2B00775FBF /* AppKit.framework */,
+				FDF7E4BC1946EC2B00775FBF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF7E4BE1946EC2B00775FBF /* XcodeHoney */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E4C41946EC2B00775FBF /* XcodeHoney.h */,
+				FDF7E4C51946EC2B00775FBF /* XcodeHoney.m */,
+				FD64699F195F8D1B00680DB6 /* NBTextViewOperation.h */,
+				FD6469A0195F8D1B00680DB6 /* NBTextViewOperation.m */,
+				FD6469A2195F8F8A00680DB6 /* NSTextView+NBExtension.h */,
+				FD6469A3195F8F8A00680DB6 /* NSTextView+NBExtension.m */,
+				FD6469A5195F9A9100680DB6 /* NBKeyCode.h */,
+				FDF7E4BF1946EC2B00775FBF /* Supporting Files */,
+			);
+			path = XcodeHoney;
+			sourceTree = "<group>";
+		};
+		FDF7E4BF1946EC2B00775FBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7E4C01946EC2B00775FBF /* XcodeHoney-Info.plist */,
+				FDF7E4C11946EC2B00775FBF /* InfoPlist.strings */,
+				FDF7E4C71946EC2B00775FBF /* XcodeHoney-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF7E4B61946EC2B00775FBF /* XcodeHoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF7E4CA1946EC2B00775FBF /* Build configuration list for PBXNativeTarget "XcodeHoney" */;
+			buildPhases = (
+				FDF7E4B31946EC2B00775FBF /* Sources */,
+				FDF7E4B41946EC2B00775FBF /* Frameworks */,
+				FDF7E4B51946EC2B00775FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeHoney;
+			productName = XcodeHoney;
+			productReference = FDF7E4B71946EC2B00775FBF /* XcodeHoney.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF7E4AF1946EC2B00775FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Nobita;
+			};
+			buildConfigurationList = FDF7E4B21946EC2B00775FBF /* Build configuration list for PBXProject "XcodeHoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDF7E4AE1946EC2B00775FBF;
+			productRefGroup = FDF7E4B81946EC2B00775FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF7E4B61946EC2B00775FBF /* XcodeHoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF7E4B51946EC2B00775FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF7E4C31946EC2B00775FBF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF7E4B31946EC2B00775FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6469A4195F8F8A00680DB6 /* NSTextView+NBExtension.m in Sources */,
+				FDF7E4C61946EC2B00775FBF /* XcodeHoney.m in Sources */,
+				FD6469A1195F8D1B00680DB6 /* NBTextViewOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDF7E4C11946EC2B00775FBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF7E4C21946EC2B00775FBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF7E4C81946EC2B00775FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDF7E4C91946EC2B00775FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDF7E4CB1946EC2B00775FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XcodeHoney/XcodeHoney-Prefix.pch";
+				INFOPLIST_FILE = "XcodeHoney/XcodeHoney-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = XcodeHoney;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		FDF7E4CC1946EC2B00775FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XcodeHoney/XcodeHoney-Prefix.pch";
+				INFOPLIST_FILE = "XcodeHoney/XcodeHoney-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = XcodeHoney;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF7E4B21946EC2B00775FBF /* Build configuration list for PBXProject "XcodeHoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF7E4C81946EC2B00775FBF /* Debug */,
+				FDF7E4C91946EC2B00775FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF7E4CA1946EC2B00775FBF /* Build configuration list for PBXNativeTarget "XcodeHoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF7E4CB1946EC2B00775FBF /* Debug */,
+				FDF7E4CC1946EC2B00775FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF7E4AF1946EC2B00775FBF /* Project object */;
+}
